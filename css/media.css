@@ -1,0 +1,127 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.home ul li a i {
+		left: 44%;
+	}
+	.map .article_1 img {
+		width: 100%;
+	}
+	.screen {
+		background-size: 100% 100%;
+	}
+	.our-team .priver h2 {
+		margin: 0 220px;
+	}
+	/*
+	.slaider .item {
+		width: 200px;
+		height: 200px;
+	}
+	.slaider .item:before{
+		width: 200px;
+		height: 200px;
+	}
+	*/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.home .quicklinks {
+		margin-top: 30px;
+	}
+	.home .search input[type="text"] {
+		margin-top: 30px;
+	}
+	.icon-2 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.map .article_1 img {
+		width: 100%;
+	}
+	.screen {
+		background-size: 100% 100%;
+	}
+	.our-team .priver h2 {
+		font-size: 24px;
+		margin: 0 163px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.home ul li a i {
+		left: 40%;
+	}
+	.map figure img {
+		margin-left: 20%;
+	}
+	.our-team .priver h2 {
+		margin: 0 80px;
+	}
+	.screen h2 {
+		font-size: 24px;
+		margin-top: 51px;
+	}
+	.screen {
+		background-image: none;
+	}
+	.screen p {
+		margin-bottom: 31px;
+	}
+	.our-team .text_box.second_box {
+		margin-top: 20px;
+	}
+	footer .footer_right_nav {
+		display: none;
+	}
+	footer .socseti {
+		float: right;
+		margin-top: -16px;
+	}
+	#article .img-container-2 {
+		height: 280px;
+	}
+	#article .img-container-2 img{
+		top: 0px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.home ul li a i {
+		left: 36%;
+	}
+	.home ul li a {
+		font-size: 13px;
+	}
+	footer .socseti {
+		display: none;
+	}
+	footer .socseti-2 {
+		display: block;
+	}
+	.top {
+		display: none;
+	}
+	#article .img-container-2 {
+		height: 200px;
+	}
+	#article .img-container-2 img{
+		top: 0px;
+	}
+}	
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.map figure img {
+		margin-left: 0%;
+		
+	}
+	.map figure h2 {
+		font-size: 18px;
+	}
+}
